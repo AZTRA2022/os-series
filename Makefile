@@ -38,3 +38,6 @@ build-x86_64: $(kernel_object_files) $(x86_64_object_files)
 run:
 	@echo "Running kernel in QEMU..."
 	sudo qemu-system-x86_64 dist/x86_64/kernel.iso
+
+clean:
+	rm -rf dist build buildenv 
