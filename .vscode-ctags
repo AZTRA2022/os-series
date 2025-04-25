@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/aztra/Bureau/os-series/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(kernel_object_files)	Makefile	/^$(kernel_object_files): build\/kernel\/%.o : src\/impl\/kernel\/%.c$/;"	t
+$(x86_64_asm_object_files)	Makefile	/^$(x86_64_asm_object_files): build\/x86_64\/%.o : src\/impl\/x86_64\/%.asm$/;"	t
+$(x86_64_c_object_files)	Makefile	/^$(x86_64_c_object_files): build\/x86_64\/%.o : src\/impl\/x86_64\/%.c$/;"	t
+Char	src/impl/x86_64/print.c	/^struct Char {$/;"	s	file:
+NUM_COLS	src/impl/x86_64/print.c	/^const static size_t NUM_COLS = 80;$/;"	v	typeref:typename:const size_t	file:
+NUM_ROWS	src/impl/x86_64/print.c	/^const static size_t NUM_ROWS = 25;$/;"	v	typeref:typename:const size_t	file:
+PRINT_COLOR_BLACK	src/intf/print.h	/^    PRINT_COLOR_BLACK = 0,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_BLUE	src/intf/print.h	/^	PRINT_COLOR_BLUE = 1,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_BROWN	src/intf/print.h	/^	PRINT_COLOR_BROWN = 6,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_CYAN	src/intf/print.h	/^	PRINT_COLOR_CYAN = 3,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_DARK_GRAY	src/intf/print.h	/^	PRINT_COLOR_DARK_GRAY = 8,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_GREEN	src/intf/print.h	/^	PRINT_COLOR_GREEN = 2,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_LIGHT_BLUE	src/intf/print.h	/^	PRINT_COLOR_LIGHT_BLUE = 9,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_LIGHT_CYAN	src/intf/print.h	/^	PRINT_COLOR_LIGHT_CYAN = 11,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_LIGHT_GRAY	src/intf/print.h	/^	PRINT_COLOR_LIGHT_GRAY = 7,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_LIGHT_GREEN	src/intf/print.h	/^	PRINT_COLOR_LIGHT_GREEN = 10,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_LIGHT_RED	src/intf/print.h	/^	PRINT_COLOR_LIGHT_RED = 12,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_MAGENTA	src/intf/print.h	/^	PRINT_COLOR_MAGENTA = 5,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_PINK	src/intf/print.h	/^	PRINT_COLOR_PINK = 13,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_RED	src/intf/print.h	/^	PRINT_COLOR_RED = 4,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_WHITE	src/intf/print.h	/^	PRINT_COLOR_WHITE = 15,$/;"	e	enum:__anon2af076df0103
+PRINT_COLOR_YELLOW	src/intf/print.h	/^	PRINT_COLOR_YELLOW = 14,$/;"	e	enum:__anon2af076df0103
+__anon2af076df0103	src/intf/print.h	/^enum {$/;"	g
+buffer	src/impl/x86_64/print.c	/^struct Char* buffer = (struct Char*) 0xb8000;$/;"	v	typeref:struct:Char *
+build-x86_64	Makefile	/^build-x86_64: $(kernel_object_files) $(x86_64_object_files)$/;"	t
+build/kernel/%.o	Makefile	/^$(kernel_object_files): build\/kernel\/%.o : src\/impl\/kernel\/%.c$/;"	t
+build/x86_64/%.o	Makefile	/^$(x86_64_asm_object_files): build\/x86_64\/%.o : src\/impl\/x86_64\/%.asm$/;"	t
+build/x86_64/%.o	Makefile	/^$(x86_64_c_object_files): build\/x86_64\/%.o : src\/impl\/x86_64\/%.c$/;"	t
+character	src/impl/x86_64/print.c	/^    uint8_t character;$/;"	m	struct:Char	typeref:typename:uint8_t	file:
+clear_row	src/impl/x86_64/print.c	/^void clear_row(size_t row) {$/;"	f	typeref:typename:void
+col	src/impl/x86_64/print.c	/^size_t col = 0;$/;"	v	typeref:typename:size_t
+color	src/impl/x86_64/print.c	/^    uint8_t color;$/;"	m	struct:Char	typeref:typename:uint8_t	file:
+color	src/impl/x86_64/print.c	/^uint8_t color = PRINT_COLOR_WHITE | PRINT_COLOR_BLACK << 4;$/;"	v	typeref:typename:uint8_t
+kernel_main	src/impl/kernel/main.c	/^void kernel_main() {$/;"	f	typeref:typename:void
+kernel_object_files	Makefile	/^kernel_object_files := $(patsubst src\/impl\/kernel\/%.c, build\/kernel\/%.o, $(kernel_source_fi/;"	m
+kernel_source_files	Makefile	/^kernel_source_files := $(shell find src\/impl\/kernel -name '*.c')$/;"	m
+print_char	src/impl/x86_64/print.c	/^void print_char(char character) {$/;"	f	typeref:typename:void
+print_clear	src/impl/x86_64/print.c	/^void print_clear() {$/;"	f	typeref:typename:void
+print_newline	src/impl/x86_64/print.c	/^void print_newline() {$/;"	f	typeref:typename:void
+print_set_color	src/impl/x86_64/print.c	/^void print_set_color(uint8_t foreground, uint8_t background) {$/;"	f	typeref:typename:void
+print_str	src/impl/x86_64/print.c	/^void print_str(char* str) {$/;"	f	typeref:typename:void
+row	src/impl/x86_64/print.c	/^size_t row = 0;$/;"	v	typeref:typename:size_t
+run	Makefile	/^run:$/;"	t
+x86_64_asm_object_files	Makefile	/^x86_64_asm_object_files := $(patsubst src\/impl\/x86_64\/%.asm, build\/x86_64\/%.o, $(x86_64_asm/;"	m
+x86_64_asm_source_files	Makefile	/^x86_64_asm_source_files := $(shell find src\/impl\/x86_64 -name '*.asm')$/;"	m
+x86_64_c_object_files	Makefile	/^x86_64_c_object_files := $(patsubst src\/impl\/x86_64\/%.c, build\/x86_64\/%.o, $(x86_64_c_sourc/;"	m
+x86_64_c_source_files	Makefile	/^x86_64_c_source_files := $(shell find src\/impl\/x86_64 -name '*.c')$/;"	m
+x86_64_object_files	Makefile	/^x86_64_object_files := $(x86_64_c_object_files) $(x86_64_asm_object_files)$/;"	m
